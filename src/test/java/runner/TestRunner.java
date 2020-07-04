@@ -13,9 +13,9 @@ import resources.base;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java/features",
-		glue = "stepDefination"
-		//tags= {},
-		
+		glue = "stepDefination",
+	   plugin = { "pretty", "html:target/cucumber-reports" },
+		 monochrome = true
 		
 		)
 

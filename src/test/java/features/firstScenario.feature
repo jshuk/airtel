@@ -1,5 +1,5 @@
 
-Feature:Add Product
+Feature:AddProduct
 
   @useCase1
   Scenario: Adding_Lowest_Price_Product
