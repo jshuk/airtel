@@ -14,15 +14,15 @@ import resources.base;
 @CucumberOptions(
 		features = "src/test/java/features",
 		glue = "stepDefination",
-	   plugin = { "pretty", "html:target/cucumber-reports" },
-		 monochrome = true
+	   plugin = { "json:target/jsonReports/cucumber-report.json"}
+//		 ,monochrome = true
 		
 		)
 
 
 public class TestRunner {
 	
-
+//"pretty", "html:target/cucumber1-reports",
 	
 	
 

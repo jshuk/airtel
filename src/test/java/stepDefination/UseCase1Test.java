@@ -3,6 +3,7 @@ package stepDefination;
 import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
+
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,7 +19,7 @@ import resources.variables;
 public class UseCase1Test extends base implements variables {
 	
 	mainPage mainPageObject = new mainPage(DRIVER);
-	public static Logger log =LogManager.getLogger(base.class.getName());
+	public static Logger log =LogManager.getLogger(UseCase1Test.class.getName());
 	String lowestPrice;
 	
 	@Given("^User is at the main page$")
@@ -28,7 +29,7 @@ public class UseCase1Test extends base implements variables {
 		Assert.assertTrue(mainPageObject.getLogo().isDisplayed());
 		System.out.println("Navigated to main page");
 	    //
-	    
+	    log.debug("Debugging");
 	}
 
 	@When("^User navigated to popular items section$")

@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-05T07:02:30.865Z",
+        "line": 5,
+        "name": "Adding_Lowest_Price_Product",
+        "description": "",
+        "id": "addproduct;adding-lowest-price-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12171000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is at the main page",
+            "match": {
+              "location": "stepDefination.UseCase1Test.user_is_at_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigated to popular items section",
+            "match": {
+              "location": "stepDefination.UseCase1Test.user_navigated_to_popular_items_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5440000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Add lowest price product",
+            "match": {
+              "location": "stepDefination.UseCase1Test.add_lowest_price_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3796000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigated to cart page",
+            "match": {
+              "location": "stepDefination.UseCase1Test.navigated_to_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 672000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Screenshot has been taken",
+            "match": {
+              "location": "stepDefination.UseCase1Test.screenshot_has_been_taken()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that product has been added successfully",
+            "match": {
+              "location": "stepDefination.UseCase1Test.verify_that_product_has_been_added_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@useCase1"
+          }
+        ]
+      }
+    ],
+    "name": "AddProduct",
+    "description": "",
+    "id": "addproduct",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/firstScenario.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-05T07:02:53.071Z",
+        "line": 4,
+        "name": "DiscountCheck",
+        "description": "",
+        "id": "dicount;discountcheck",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2010000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at the main page",
+            "match": {
+              "location": "stepDefination.UseCase1Test.user_is_at_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigated to popular items section",
+            "match": {
+              "location": "stepDefination.UseCase1Test.user_navigated_to_popular_items_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check number of items with discount",
+            "match": {
+              "location": "stepDefination.USeCase2.check_number_of_items_with_discount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that final price after discount is correct",
+            "match": {
+              "location": "stepDefination.USeCase2.verify_that_final_price_after_discount_is_correct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@useCase2"
+          }
+        ]
+      }
+    ],
+    "name": "Dicount",
+    "description": "",
+    "id": "dicount",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/secondScenario.feature",
+    "tags": []
+  }
+]
